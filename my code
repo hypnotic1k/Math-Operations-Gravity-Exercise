@@ -1,0 +1,13 @@
+'''
+Jomar vera 11/3/21
+'''
+import math
+gravity=input("input gravity in pixles per second squared: ") # Get gravity from user
+gravity=int(gravity)
+fps=input("input fps")
+fps=int(fps)
+frames=input("prompt")
+frames=int(frames)
+time=frames/fps
+distance=.5* gravity*time**2
+print("It will drop", distance, "pixels in", time, "seconds")   # Output time to user
